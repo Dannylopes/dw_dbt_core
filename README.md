@@ -3,3 +3,4 @@
 
 ##### Teste de commit
 
+Criado o .gitignore
