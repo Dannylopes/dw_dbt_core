@@ -1,0 +1,500 @@
+[0m10:22:22.919748 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000160CAA74B30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000160CAC726F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000160CDBAB650>]}
+
+
+============================== 10:22:22.925349 | 2c563677-5732-47de-9203-a49faad3a79b ==============================
+[0m10:22:22.925349 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m10:22:22.926255 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Magna\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m10:22:23.003176 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'WindowsPath'.. Dictionary: {'dir': WindowsPath('C:/Users/Magna/.dbt')}
+[0m10:22:23.005633 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m10:23:46.622821 [debug] [MainThread]: Starter project path: C:\Users\Magna\OneDrive\Documentos\Daniel\dbt_core_dw\.venv\Lib\site-packages\dbt\include\starter_project
+[0m10:23:46.686169 [info ] [MainThread]: 
+Your new dbt project "datawarehouse_commodities" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:23:46.688622 [info ] [MainThread]: Setting up your profile.
+[0m10:25:17.020678 [info ] [MainThread]: Profile datawarehouse_commodities written to C:\Users\Magna\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m10:25:17.020678 [debug] [MainThread]: Command `dbt init` succeeded at 10:25:17.020678 after 174.27 seconds
+[0m10:25:17.020678 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000160CE4C2870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000160C8688110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000160CB91D8E0>]}
+[0m10:25:17.020678 [debug] [MainThread]: Flushing usage events
+[0m10:25:18.137287 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:29:13.627900 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013989340B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000139840FA180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001398991D730>]}
+
+
+============================== 10:29:13.665263 | 8d1d40f3-8bd0-4e1d-aa9f-254a35fd3daf ==============================
+[0m10:29:13.665263 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m10:29:13.665263 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Magna\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m10:29:13.722043 [info ] [MainThread]: dbt version: 1.9.0-b2
+[0m10:29:13.722043 [info ] [MainThread]: python version: 3.12.5
+[0m10:29:13.722043 [info ] [MainThread]: python path: C:\Users\Magna\OneDrive\Documentos\Daniel\dbt_core_dw\.venv\Scripts\python.exe
+[0m10:29:13.722043 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m10:29:13.808275 [info ] [MainThread]: Using profiles dir at C:\Users\Magna\.dbt
+[0m10:29:13.809151 [info ] [MainThread]: Using profiles.yml file at C:\Users\Magna\.dbt\profiles.yml
+[0m10:29:13.810067 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Magna\OneDrive\Documentos\Daniel\dbt_core_dw\dbt_project.yml
+[0m10:29:13.812074 [info ] [MainThread]: adapter type: postgres
+[0m10:29:13.813073 [info ] [MainThread]: adapter version: 1.8.2
+[0m10:29:13.813073 [info ] [MainThread]: Configuration:
+[0m10:29:13.814092 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m10:29:13.814914 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m10:29:13.815987 [info ] [MainThread]: Required dependencies:
+[0m10:29:13.815987 [debug] [MainThread]: Executing "git --help"
+[0m10:29:13.844284 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m10:29:13.845293 [debug] [MainThread]: STDERR: "b''"
+[0m10:29:13.846337 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m10:29:13.847118 [info ] [MainThread]: Connection:
+[0m10:29:13.848114 [info ] [MainThread]:   host: dpg-csdar5d6l47c739n51c0-a.oregon-postgres.render.com
+[0m10:29:13.849171 [info ] [MainThread]:   port: 5432
+[0m10:29:13.849171 [info ] [MainThread]:   user: postgres123
+[0m10:29:13.850274 [info ] [MainThread]:   database: atomdb
+[0m10:29:13.850274 [info ] [MainThread]:   schema: public
+[0m10:29:13.850274 [info ] [MainThread]:   connect_timeout: 10
+[0m10:29:13.850274 [info ] [MainThread]:   role: None
+[0m10:29:13.850274 [info ] [MainThread]:   search_path: None
+[0m10:29:13.850274 [info ] [MainThread]:   keepalives_idle: 0
+[0m10:29:13.850274 [info ] [MainThread]:   sslmode: None
+[0m10:29:13.850274 [info ] [MainThread]:   sslcert: None
+[0m10:29:13.855967 [info ] [MainThread]:   sslkey: None
+[0m10:29:13.858006 [info ] [MainThread]:   sslrootcert: None
+[0m10:29:13.858975 [info ] [MainThread]:   application_name: dbt
+[0m10:29:13.859888 [info ] [MainThread]:   retries: 1
+[0m10:29:13.861442 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m10:29:13.862419 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m10:29:13.971180 [debug] [MainThread]: Using postgres connection "debug"
+[0m10:29:13.971180 [debug] [MainThread]: On debug: select 1 as id
+[0m10:29:13.971180 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:29:15.642232 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "dpg-csdar5d6l47c739n51c0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  password authentication failed for user "postgres123"
+connection to server at "dpg-csdar5d6l47c739n51c0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  SSL/TLS required
+
+[0m10:29:17.430189 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m10:29:17.430189 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m10:29:17.430189 [debug] [MainThread]: On debug: No close available on handle
+[0m10:29:17.430189 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m10:29:17.430189 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m10:29:17.436713 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Magna\OneDrive\Documentos\Daniel\dbt_core_dw\dbt_project.yml> not found
+
+[0m10:29:17.436713 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "dpg-csdar5d6l47c739n51c0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  password authentication failed for user "postgres123"
+  connection to server at "dpg-csdar5d6l47c739n51c0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  SSL/TLS required
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m10:29:17.436713 [debug] [MainThread]: Command `dbt debug` failed at 10:29:17.436713 after 4.03 seconds
+[0m10:29:17.436713 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m10:29:17.443124 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001398A0E4470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001398A3BF620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001398A3DF1A0>]}
+[0m10:29:17.443124 [debug] [MainThread]: Flushing usage events
+[0m10:29:18.199778 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:30:12.754101 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025463B60170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000254612729F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000254612710D0>]}
+
+
+============================== 10:30:12.784963 | 10556944-2bd7-4e93-bfb7-6d74749eed98 ==============================
+[0m10:30:12.784963 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m10:30:12.784963 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Magna\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:30:31.132569 [info ] [MainThread]: A project called datawarehouse_commodities already exists here.
+[0m10:30:31.132569 [debug] [MainThread]: Command `dbt init` succeeded at 10:30:31.132569 after 18.53 seconds
+[0m10:30:31.132569 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000254612251F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025463C5FA70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025463566F30>]}
+[0m10:30:31.132569 [debug] [MainThread]: Flushing usage events
+[0m10:30:31.945638 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:30:40.553825 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000235D485F680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000235D4BEA720>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000235D4F85CA0>]}
+
+
+============================== 10:30:40.585469 | 901e9a7d-0e37-4a7c-9707-c94bca6f2868 ==============================
+[0m10:30:40.585469 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m10:30:40.585469 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Magna\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m10:30:40.627315 [info ] [MainThread]: dbt version: 1.9.0-b2
+[0m10:30:40.627315 [info ] [MainThread]: python version: 3.12.5
+[0m10:30:40.627315 [info ] [MainThread]: python path: C:\Users\Magna\OneDrive\Documentos\Daniel\dbt_core_dw\.venv\Scripts\python.exe
+[0m10:30:40.627315 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m10:30:40.703543 [info ] [MainThread]: Using profiles dir at C:\Users\Magna\.dbt
+[0m10:30:40.704543 [info ] [MainThread]: Using profiles.yml file at C:\Users\Magna\.dbt\profiles.yml
+[0m10:30:40.705538 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Magna\OneDrive\Documentos\Daniel\dbt_core_dw\dbt_project.yml
+[0m10:30:40.707540 [info ] [MainThread]: adapter type: postgres
+[0m10:30:40.708638 [info ] [MainThread]: adapter version: 1.8.2
+[0m10:30:40.709993 [info ] [MainThread]: Configuration:
+[0m10:30:40.709993 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m10:30:40.711003 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m10:30:40.712000 [info ] [MainThread]: Required dependencies:
+[0m10:30:40.713005 [debug] [MainThread]: Executing "git --help"
+[0m10:30:40.736889 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m10:30:40.736889 [debug] [MainThread]: STDERR: "b''"
+[0m10:30:40.736889 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m10:30:40.736889 [info ] [MainThread]: Connection:
+[0m10:30:40.736889 [info ] [MainThread]:   host: dpg-csdar5d6l47c739n51c0-a.oregon-postgres.render.com
+[0m10:30:40.736889 [info ] [MainThread]:   port: 5432
+[0m10:30:40.736889 [info ] [MainThread]:   user: postgres123
+[0m10:30:40.736889 [info ] [MainThread]:   database: atomdb
+[0m10:30:40.736889 [info ] [MainThread]:   schema: public
+[0m10:30:40.736889 [info ] [MainThread]:   connect_timeout: 10
+[0m10:30:40.736889 [info ] [MainThread]:   role: None
+[0m10:30:40.748051 [info ] [MainThread]:   search_path: None
+[0m10:30:40.749071 [info ] [MainThread]:   keepalives_idle: 0
+[0m10:30:40.749794 [info ] [MainThread]:   sslmode: None
+[0m10:30:40.749794 [info ] [MainThread]:   sslcert: None
+[0m10:30:40.750865 [info ] [MainThread]:   sslkey: None
+[0m10:30:40.751825 [info ] [MainThread]:   sslrootcert: None
+[0m10:30:40.753027 [info ] [MainThread]:   application_name: dbt
+[0m10:30:40.754036 [info ] [MainThread]:   retries: 1
+[0m10:30:40.755041 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m10:30:40.757826 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m10:30:40.803483 [debug] [MainThread]: Using postgres connection "debug"
+[0m10:30:40.803483 [debug] [MainThread]: On debug: select 1 as id
+[0m10:30:40.803483 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:30:42.492680 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "dpg-csdar5d6l47c739n51c0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  password authentication failed for user "postgres123"
+connection to server at "dpg-csdar5d6l47c739n51c0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  SSL/TLS required
+
+[0m10:30:44.113867 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m10:30:44.113867 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m10:30:44.113867 [debug] [MainThread]: On debug: No close available on handle
+[0m10:30:44.113867 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m10:30:44.113867 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m10:30:44.113867 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Magna\OneDrive\Documentos\Daniel\dbt_core_dw\dbt_project.yml> not found
+
+[0m10:30:44.129500 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "dpg-csdar5d6l47c739n51c0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  password authentication failed for user "postgres123"
+  connection to server at "dpg-csdar5d6l47c739n51c0-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  SSL/TLS required
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m10:30:44.130130 [debug] [MainThread]: Command `dbt debug` failed at 10:30:44.130130 after 3.72 seconds
+[0m10:30:44.130130 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m10:30:44.130130 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000235D54AAA80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000235D584B050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000235D515E000>]}
+[0m10:30:44.130130 [debug] [MainThread]: Flushing usage events
+[0m10:30:45.369286 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:30:51.640272 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A0980B740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A0C4C34A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A0C4C1850>]}
+
+
+============================== 10:30:51.671620 | 41909cc0-90b6-4e97-944d-6f1cd03c9965 ==============================
+[0m10:30:51.671620 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m10:30:51.671620 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Magna\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m10:37:06.250856 [debug] [MainThread]: Starter project path: C:\Users\Magna\OneDrive\Documentos\Daniel\dbt_core_dw\.venv\Lib\site-packages\dbt\include\starter_project
+[0m10:37:06.282084 [info ] [MainThread]: 
+Your new dbt project "dw_commodities" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:37:06.282084 [info ] [MainThread]: Setting up your profile.
+[0m10:38:05.651696 [info ] [MainThread]: Profile dw_commodities written to C:\Users\Magna\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m10:38:05.664778 [debug] [MainThread]: Command `dbt init` succeeded at 10:38:05.663749 after 434.15 seconds
+[0m10:38:05.666654 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A0C3C1220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A0C4C1850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A0C1FD9A0>]}
+[0m10:38:05.666654 [debug] [MainThread]: Flushing usage events
+[0m10:38:06.389744 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:38:58.213532 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219B55BF6B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219B2FBB5F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219B5F317C0>]}
+
+
+============================== 10:38:58.235319 | 1337989c-b929-4727-9dc8-9f01025b2faf ==============================
+[0m10:38:58.235319 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m10:38:58.250985 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Magna\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m10:38:58.283624 [info ] [MainThread]: dbt version: 1.9.0-b2
+[0m10:38:58.284625 [info ] [MainThread]: python version: 3.12.5
+[0m10:38:58.284625 [info ] [MainThread]: python path: C:\Users\Magna\OneDrive\Documentos\Daniel\dbt_core_dw\.venv\Scripts\python.exe
+[0m10:38:58.285623 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m10:38:58.345898 [info ] [MainThread]: Using profiles dir at C:\Users\Magna\.dbt
+[0m10:38:58.345898 [info ] [MainThread]: Using profiles.yml file at C:\Users\Magna\.dbt\profiles.yml
+[0m10:38:58.345898 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Magna\OneDrive\Documentos\Daniel\dbt_core_dw\dbt_project.yml
+[0m10:38:58.345898 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m10:38:58.345898 [debug] [MainThread]: Command `dbt debug` failed at 10:38:58.345898 after 0.33 seconds
+[0m10:38:58.345898 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219B3BD33E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219B66BC980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000219B5E4D5B0>]}
+[0m10:38:58.345898 [debug] [MainThread]: Flushing usage events
+[0m10:38:58.985850 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:37:39.728154 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000253309BD820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002532E72D490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000253312195B0>]}
+
+
+============================== 11:37:39.767263 | bfa5e21c-1a5d-42f0-bed0-f19811c9d77d ==============================
+[0m11:37:39.767263 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m11:37:39.767263 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Magna\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:37:39.823078 [info ] [MainThread]: dbt version: 1.9.0-b2
+[0m11:37:39.823078 [info ] [MainThread]: python version: 3.12.5
+[0m11:37:39.834034 [info ] [MainThread]: python path: C:\Users\Magna\OneDrive\Documentos\Daniel\dbt_core_dw\.venv\Scripts\python.exe
+[0m11:37:39.836082 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m11:37:39.836901 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m11:37:39.846935 [debug] [MainThread]: Command `dbt debug` failed at 11:37:39.846935 after 0.41 seconds
+[0m11:37:39.846935 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000253315256A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000253315D3B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025331506870>]}
+[0m11:37:39.846935 [debug] [MainThread]: Flushing usage events
+[0m11:37:40.493681 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:40:25.588771 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C59010BE00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C59146E630>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C590079280>]}
+
+
+============================== 11:40:25.639770 | e9a2615d-92f1-46cb-9657-5129dc0853db ==============================
+[0m11:40:25.639770 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m11:40:25.640621 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Magna\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:40:25.674810 [info ] [MainThread]: dbt version: 1.9.0-b2
+[0m11:40:25.675713 [info ] [MainThread]: python version: 3.12.5
+[0m11:40:25.676749 [info ] [MainThread]: python path: C:\Users\Magna\OneDrive\Documentos\Daniel\dbt_core_dw\.venv\Scripts\python.exe
+[0m11:40:25.677710 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m11:40:25.687920 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m11:40:25.690870 [debug] [MainThread]: Command `dbt debug` failed at 11:40:25.690870 after 0.32 seconds
+[0m11:40:25.690870 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C58ED7E9C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C5923B7620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C592287B60>]}
+[0m11:40:25.691867 [debug] [MainThread]: Flushing usage events
+[0m11:40:26.567457 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:42:35.133291 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000290A082E060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002909E4A8D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002909EBBDB80>]}
+
+
+============================== 11:42:35.180091 | f2819abd-8af1-4e20-a4c1-609a3aec55f0 ==============================
+[0m11:42:35.180091 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m11:42:35.180091 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Magna\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:42:35.213147 [info ] [MainThread]: dbt version: 1.9.0-b2
+[0m11:42:35.214056 [info ] [MainThread]: python version: 3.12.5
+[0m11:42:35.215361 [info ] [MainThread]: python path: C:\Users\Magna\OneDrive\Documentos\Daniel\dbt_core_dw\.venv\Scripts\python.exe
+[0m11:42:35.219369 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m11:42:35.227077 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m11:42:35.229925 [debug] [MainThread]: Command `dbt debug` failed at 11:42:35.229925 after 0.29 seconds
+[0m11:42:35.230919 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002909AF68680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000290A0EF5010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000290A10D88F0>]}
+[0m11:42:35.231918 [debug] [MainThread]: Flushing usage events
+[0m11:42:35.812275 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:43:08.090191 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E40F973710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E40C6804D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E40F8CA000>]}
+
+
+============================== 11:43:08.121048 | b9913065-bd6b-4a09-b9fd-17323deca1a8 ==============================
+[0m11:43:08.121048 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m11:43:08.121048 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Magna\\.dbt', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m11:43:08.153457 [info ] [MainThread]: dbt version: 1.9.0-b2
+[0m11:43:08.153457 [info ] [MainThread]: python version: 3.12.5
+[0m11:43:08.153457 [info ] [MainThread]: python path: C:\Users\Magna\OneDrive\Documentos\Daniel\dbt_core_dw\.venv\Scripts\python.exe
+[0m11:43:08.153457 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m11:43:08.164781 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m11:43:08.166804 [debug] [MainThread]: Command `dbt debug` failed at 11:43:08.166804 after 0.20 seconds
+[0m11:43:08.166804 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E40F33DB20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E40F9CE840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E40F910440>]}
+[0m11:43:08.167782 [debug] [MainThread]: Flushing usage events
+[0m11:43:08.752783 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:44:10.009187 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AAD76623F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AAD6D1B9B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AAD6D1BAA0>]}
+
+
+============================== 11:44:10.040447 | 96a58da3-4ac3-46a4-8c06-8e4235d9f618 ==============================
+[0m11:44:10.040447 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m11:44:10.040447 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Magna\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:44:10.069563 [info ] [MainThread]: dbt version: 1.9.0-b2
+[0m11:44:10.069563 [info ] [MainThread]: python version: 3.12.5
+[0m11:44:10.077249 [info ] [MainThread]: python path: C:\Users\Magna\OneDrive\Documentos\Daniel\dbt_core_dw\.venv\Scripts\python.exe
+[0m11:44:10.077249 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m11:44:10.084836 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m11:44:10.086238 [debug] [MainThread]: Command `dbt debug` failed at 11:44:10.086238 after 0.23 seconds
+[0m11:44:10.087328 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AAD7835760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AAD78C9760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AAD78C88F0>]}
+[0m11:44:10.087328 [debug] [MainThread]: Flushing usage events
+[0m11:44:10.731376 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:46:23.554504 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028FA6E6C4A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028FA43CB890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028FA67F2B70>]}
+
+
+============================== 11:46:23.588444 | 12d625cd-ce2c-417c-99a6-95452a7ff778 ==============================
+[0m11:46:23.588444 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m11:46:23.588444 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Magna\\.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:46:23.617892 [info ] [MainThread]: dbt version: 1.9.0-b2
+[0m11:46:23.617892 [info ] [MainThread]: python version: 3.12.5
+[0m11:46:23.617892 [info ] [MainThread]: python path: C:\Users\Magna\OneDrive\Documentos\Daniel\dbt_core_dw\.venv\Scripts\python.exe
+[0m11:46:23.617892 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m11:46:23.625058 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m11:46:23.626070 [debug] [MainThread]: Command `dbt debug` failed at 11:46:23.626070 after 0.24 seconds
+[0m11:46:23.627077 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028FA43CB890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028FA660BA10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028FA6E6C4A0>]}
+[0m11:46:23.628066 [debug] [MainThread]: Flushing usage events
+[0m11:46:24.373982 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:46:44.127166 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D67D71F830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D67DC103E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D67DC10470>]}
+
+
+============================== 11:46:44.158082 | f4800d72-4e3a-45da-be9c-7daa0d3f70cb ==============================
+[0m11:46:44.158082 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m11:46:44.173687 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Magna\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:46:44.197692 [info ] [MainThread]: dbt version: 1.9.0-b2
+[0m11:46:44.199349 [info ] [MainThread]: python version: 3.12.5
+[0m11:46:44.199349 [info ] [MainThread]: python path: C:\Users\Magna\OneDrive\Documentos\Daniel\dbt_core_dw\.venv\Scripts\python.exe
+[0m11:46:44.200356 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m11:46:44.205357 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m11:46:44.207355 [debug] [MainThread]: Command `dbt debug` failed at 11:46:44.207355 after 0.20 seconds
+[0m11:46:44.207355 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D67DDF5E20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D67E6EF620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D67E6ED6A0>]}
+[0m11:46:44.208355 [debug] [MainThread]: Flushing usage events
+[0m11:46:44.775559 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:58:11.188520 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014BCE1C9AF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014BCE1A0740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014BD12A7F80>]}
+
+
+============================== 14:58:11.235953 | d76db319-b37e-4d2b-ac7a-82a5c04fbd31 ==============================
+[0m14:58:11.235953 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m14:58:11.235953 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Magna\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:58:11.276762 [info ] [MainThread]: dbt version: 1.9.0-b2
+[0m14:58:11.276762 [info ] [MainThread]: python version: 3.12.5
+[0m14:58:11.276762 [info ] [MainThread]: python path: C:\Users\Magna\OneDrive\Documentos\Daniel\dbt_core_dw\.venv\Scripts\python.exe
+[0m14:58:11.276762 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m14:58:11.294061 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m14:58:11.299062 [debug] [MainThread]: Command `dbt debug` failed at 14:58:11.298060 after 0.28 seconds
+[0m14:58:11.299462 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014BD0C07A10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014BD17CB6E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014BD17CAED0>]}
+[0m14:58:11.301575 [debug] [MainThread]: Flushing usage events
+[0m14:58:11.992032 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:59:14.645104 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002853DA00380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002853D521370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002853B16B770>]}
+
+
+============================== 14:59:14.690901 | 7e07fa5a-9082-40d8-88ad-a5af1a5ce7f3 ==============================
+[0m14:59:14.690901 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m14:59:14.690901 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Magna\\OneDrive\\Documentos\\Daniel\\dbt_core_dw', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m14:59:14.730970 [info ] [MainThread]: dbt version: 1.9.0-b2
+[0m14:59:14.730970 [info ] [MainThread]: python version: 3.12.5
+[0m14:59:14.735479 [info ] [MainThread]: python path: C:\Users\Magna\OneDrive\Documentos\Daniel\dbt_core_dw\.venv\Scripts\python.exe
+[0m14:59:14.735479 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m14:59:14.742589 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m14:59:14.745701 [debug] [MainThread]: Command `dbt debug` failed at 14:59:14.745701 after 0.25 seconds
+[0m14:59:14.746687 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028537D35B20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002853B629D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002853DA62D20>]}
+[0m14:59:14.747588 [debug] [MainThread]: Flushing usage events
+[0m14:59:15.517780 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:59:53.849497 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A5B9B92900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A5B977B4A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A5BC047D10>]}
+
+
+============================== 14:59:53.896489 | a4ba9a66-08ba-4b3b-b30c-b08707ef60a5 ==============================
+[0m14:59:53.896489 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m14:59:53.896489 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Magna\\OneDrive\\Documentos\\Daniel\\dbt_core_dw', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:59:53.929361 [info ] [MainThread]: dbt version: 1.9.0-b2
+[0m14:59:53.930464 [info ] [MainThread]: python version: 3.12.5
+[0m14:59:53.930464 [info ] [MainThread]: python path: C:\Users\Magna\OneDrive\Documentos\Daniel\dbt_core_dw\.venv\Scripts\python.exe
+[0m14:59:53.930464 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m14:59:53.930464 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m14:59:53.930464 [debug] [MainThread]: Command `dbt debug` failed at 14:59:53.930464 after 0.22 seconds
+[0m14:59:53.930464 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A5BBCBEEA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A5BA1BFBC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A5BC4B6F60>]}
+[0m14:59:53.930464 [debug] [MainThread]: Flushing usage events
+[0m14:59:54.506161 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:00:28.936639 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDD5FCF7D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDD4593C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDD4592FF0>]}
+
+
+============================== 15:00:28.983829 | 8e5790fc-98cd-4cd0-8a9a-571e1fe62a78 ==============================
+[0m15:00:28.983829 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m15:00:28.983829 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Magna\\OneDrive\\Documentos\\Daniel\\dbt_core_dw', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:00:29.023351 [info ] [MainThread]: dbt version: 1.9.0-b2
+[0m15:00:29.024347 [info ] [MainThread]: python version: 3.12.5
+[0m15:00:29.025349 [info ] [MainThread]: python path: C:\Users\Magna\OneDrive\Documentos\Daniel\dbt_core_dw\.venv\Scripts\python.exe
+[0m15:00:29.026349 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m15:00:29.034146 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m15:00:29.036018 [debug] [MainThread]: Command `dbt debug` failed at 15:00:29.036018 after 0.22 seconds
+[0m15:00:29.036018 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDD37B42F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDD6F81F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDD65CF680>]}
+[0m15:00:29.037044 [debug] [MainThread]: Flushing usage events
+[0m15:00:29.720965 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:01:06.586424 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FD52504D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FD80FF5F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FD85419A0>]}
+
+
+============================== 15:01:06.617910 | 07f95a84-9481-4b73-852a-19713393b4d7 ==============================
+[0m15:01:06.617910 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m15:01:06.617910 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Magna\\OneDrive\\Documentos\\Daniel\\dbt_core_dw', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m15:01:06.654850 [info ] [MainThread]: dbt version: 1.9.0-b2
+[0m15:01:06.656333 [info ] [MainThread]: python version: 3.12.5
+[0m15:01:06.659893 [info ] [MainThread]: python path: C:\Users\Magna\OneDrive\Documentos\Daniel\dbt_core_dw\.venv\Scripts\python.exe
+[0m15:01:06.660884 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m15:01:06.662961 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m15:01:06.667980 [debug] [MainThread]: Command `dbt debug` failed at 15:01:06.662961 after 0.22 seconds
+[0m15:01:06.667980 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FD88C6EA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FD885BFE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018FD8A2C1D0>]}
+[0m15:01:06.667980 [debug] [MainThread]: Flushing usage events
+[0m15:01:12.093631 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:04:43.867042 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8A907B4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8AB554FB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8AB556330>]}
+
+
+============================== 15:04:43.898301 | b5228a81-87c0-4c0f-8da4-3b967f70f77a ==============================
+[0m15:04:43.898301 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m15:04:43.898301 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Magna\\OneDrive\\Documentos\\Daniel\\dbt_core_dw', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:04:43.936360 [info ] [MainThread]: dbt version: 1.9.0-b2
+[0m15:04:43.936360 [info ] [MainThread]: python version: 3.12.5
+[0m15:04:43.936360 [info ] [MainThread]: python path: C:\Users\Magna\OneDrive\Documentos\Daniel\dbt_core_dw\.venv\Scripts\python.exe
+[0m15:04:43.946502 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m15:04:43.956607 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m15:04:43.959758 [debug] [MainThread]: Command `dbt debug` failed at 15:04:43.958605 after 0.31 seconds
+[0m15:04:43.959758 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8AB70FF80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8ABE68890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F8ABC87B00>]}
+[0m15:04:43.959758 [debug] [MainThread]: Flushing usage events
+[0m15:04:44.774250 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:11:38.309922 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A7A344B290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A7A4066750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A7A64F0170>]}
+
+
+============================== 15:11:38.355337 | c587d57f-a512-4509-bb70-5274c5534ed2 ==============================
+[0m15:11:38.355337 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m15:11:38.356226 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Magna\\OneDrive\\Documentos\\Daniel\\dbt_core_dw', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m15:11:38.386316 [info ] [MainThread]: dbt version: 1.9.0-b2
+[0m15:11:38.387368 [info ] [MainThread]: python version: 3.12.5
+[0m15:11:38.387368 [info ] [MainThread]: python path: C:\Users\Magna\OneDrive\Documentos\Daniel\dbt_core_dw\.venv\Scripts\python.exe
+[0m15:11:38.388316 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m15:11:38.394316 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m15:11:38.396349 [debug] [MainThread]: Command `dbt debug` failed at 15:11:38.396349 after 0.23 seconds
+[0m15:11:38.397378 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A7A4500380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A7A6A11FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A7A63D1BE0>]}
+[0m15:11:38.398322 [debug] [MainThread]: Flushing usage events
+[0m15:11:38.990779 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:13:10.563972 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000244C56A26C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000244C380D160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000244C28E0EF0>]}
+
+
+============================== 15:13:10.617692 | 3db8d698-daa1-4d69-9726-51b2473a2732 ==============================
+[0m15:13:10.617692 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m15:13:10.619918 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Magna\\OneDrive\\Documentos\\Daniel\\dbt_core_dw', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m15:13:10.643423 [info ] [MainThread]: dbt version: 1.9.0-b2
+[0m15:13:10.643423 [info ] [MainThread]: python version: 3.12.5
+[0m15:13:10.643423 [info ] [MainThread]: python path: C:\Users\Magna\OneDrive\Documentos\Daniel\dbt_core_dw\.venv\Scripts\python.exe
+[0m15:13:10.651975 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m15:13:10.656284 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m15:13:10.656284 [debug] [MainThread]: Command `dbt debug` failed at 15:13:10.656284 after 0.27 seconds
+[0m15:13:10.656284 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000244C0108680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000244C60D8B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000244C61E70E0>]}
+[0m15:13:10.656284 [debug] [MainThread]: Flushing usage events
+[0m15:13:11.523419 [debug] [MainThread]: An error was encountered while trying to flush usage events

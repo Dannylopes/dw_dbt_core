@@ -5,7 +5,6 @@ from sqlalchemy import create_engine
 from dotenv import load_dotenv
 import os
 
-
 load_dotenv()
 
 commodities = ['AAPL34', 'MSFT34', 'TADAWUL', 'RACE', 'GC=F', 'CL=F']
@@ -39,7 +38,6 @@ def get_all_commodities(commodities):
 def save_postgres(df, schema='public'):
     df.to_sql('tb_commodities', engine, if_exists='replace', index = True, index_label= 'Date', schema = schema)
 
-
 if __name__ == "__main__":
     df_commodities = get_all_commodities(commodities)
     save_postgres(df_commodities, schema='public')
@@ -47,3 +45,4 @@ if __name__ == "__main__":
 
 
 
+parei em 01h30

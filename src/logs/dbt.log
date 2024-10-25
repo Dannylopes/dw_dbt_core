@@ -1,0 +1,17 @@
+[0m15:07:40.040952 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2C1E6E9C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2BEEFB650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2BEEFB680>]}
+
+
+============================== 15:07:40.072184 | 746576f5-a8ce-42f5-8a8e-e9444429a0af ==============================
+[0m15:07:40.072184 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m15:07:40.087805 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Magna\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m15:07:40.116845 [info ] [MainThread]: dbt version: 1.9.0-b2
+[0m15:07:40.117861 [info ] [MainThread]: python version: 3.12.5
+[0m15:07:40.118857 [info ] [MainThread]: python path: C:\Users\Magna\OneDrive\Documentos\Daniel\dbt_core_dw\.venv\Scripts\python.exe
+[0m15:07:40.119874 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m15:07:40.122009 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m15:07:40.122009 [debug] [MainThread]: Command `dbt debug` failed at 15:07:40.122009 after 0.28 seconds
+[0m15:07:40.122009 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2C21CDDF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2C24F8AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2C24C51F0>]}
+[0m15:07:40.128790 [debug] [MainThread]: Flushing usage events
+[0m15:07:40.825277 [debug] [MainThread]: An error was encountered while trying to flush usage events
