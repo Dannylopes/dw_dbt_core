@@ -1,0 +1,16 @@
+version: 2
+
+sources :
+  - name: atomdb
+    schema: public
+    tables:
+      # Generate model
+      - name: tb_commodities
+        description: "Tabela que contém dados históricos de commodities"
+        columns:
+          - name: Date
+            description: "Data da observação"
+          - name: Close
+            description: "Preco de fechamento da commodity"
+          - name: simbolo
+            description: "Símbolo da commodity"

@@ -42,7 +42,3 @@ if __name__ == "__main__":
     df_commodities = get_all_commodities(commodities)
     save_postgres(df_commodities, schema='public')
 
-
-
-
-parei em 01h30
